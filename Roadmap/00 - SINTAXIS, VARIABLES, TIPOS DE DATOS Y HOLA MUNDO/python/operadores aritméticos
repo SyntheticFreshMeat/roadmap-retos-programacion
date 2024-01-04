@@ -1,0 +1,106 @@
+# OPERADORES ARITMÉTICOS
+print("#"*50, "\n" "ejercicio 1.1", "\n" "Crea ejemplos utilizando todos los tipos de operadores de tu lenguaje: Aritméticos, lógicos, de comparación, asignación, identidad, pertenencia, bits...")
+
+a = 10
+b = 5
+c = 2
+
+suma = a + b
+resta = a - c
+multiplicacion = b * c
+division = a / b
+division_entera = a // b
+modulo = a % c
+potencia = a ** c
+
+print("Operadores aritméticos con a = 10, b = 5, c = 2", "\n" "suma = ", suma, "\n" "resta = ", resta, "\n" "multiplicación = ", multiplicacion, "\n" "división = ", division, "\n" "división entera = ", division_entera, "\n" "módulo = ", modulo, "\n" "potencia = ", potencia, "\n")
+
+# OPERADORES LÓGICOS
+print("#"*50)
+
+a = True
+b = False
+c = None # None es un valor especial que representa la ausencia de valor. En otros lenguajes se conoce como Null.
+
+logico_and = a and b
+logico_or = a or b
+logico_not = not a
+
+print("Operadores lógicos con a = True, b = False, c = None", "\n" "and = ", logico_and, "\n" "or = ", logico_or, "\n" "not = ", logico_not, "\n")
+
+# OPERADORES DE COMPARACIÓN
+print("#"*50)
+
+a = 10
+b = 5
+c = 2
+
+comparacion_igual = c == c
+comparacion_mayor = a > b
+comparacion_menor = a < b
+comparacion_mayor_igual = a >=b
+comparacion_mayor_igual = a <=b
+comparacion_diferente = a != c
+comparacion_identico = a is b
+comparacion_no_identico = a is not b
+comparacion_pertenencia = a in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+comparacion_no_pertenencia = a not in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+print("Operadores de comparación con a = 10, b = 5, c = 2", "\n" "igual = ", comparacion_igual, "\n" "mayor = ", comparacion_mayor, "\n" "menor = ", comparacion_menor, "\n" "mayor o igual = ", comparacion_mayor_igual, "\n" "menor o igual = ", comparacion_mayor_igual, "\n" "diferente = ", comparacion_diferente, "\n" "identico = ", comparacion_identico, "\n" "no identico = ", comparacion_no_identico, "\n" "pertenencia = ", comparacion_pertenencia, "\n" "no pertenencia = ", comparacion_no_pertenencia, "\n")
+
+# OPERADORES DE ASIGNACIÓN
+print("#"*50)
+
+a = 10
+b = 5
+c = 2
+
+asignacion = a = b
+asignacion_suma = a =+ b
+asignacion_resta = a =- b
+
+print("Operadores de asignación con a = 10, b = 5, c = 2", "\n" "asignación = ", asignacion, "\n" "asignación suma = ", asignacion_suma, "\n" "asignación resta = ", asignacion_resta, "\n")
+
+# OPERADORES DE IDENTIDAD
+print("#"*50)
+
+a = 10
+b = 5
+c = 2
+
+identidad = a is b
+no_identidad = a is not b
+identidad_none = c is None
+no_identidad_none = c is not None
+
+print("Operadores de identidad con a = 10, b = 5, c = 2", "\n" "identidad = ", identidad, "\n" "no identidad = ", no_identidad, "\n" "identidad None = ", identidad_none, "\n" "no identidad None = ", no_identidad_none, "\n")
+
+# OPERADORES DE PERTENENCIA
+print("#"*50)
+
+a = 10
+b = 5
+c = 2
+
+pertenencia = a in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+no_pertenencia = a not in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+print("Operadores de pertenencia con a = 10, b = 5, c = 2", "\n" "pertenencia = ", pertenencia, "\n" "no pertenencia = ", no_pertenencia, "\n")
+
+# OPERADORES DE BITS
+print("#"*50)
+
+a = 10
+b = 5
+c = 2
+
+bits_and = a & b
+bits_or = a | b
+bits_xor = a ^ b
+bits_not = ~ a
+bits_desplazamiento_izquierda = a << b
+bits_desplazamiento_derecha = a >> b
+
+print("Operadores de bits con a = 10, b = 5, c = 2", "\n" "and = ", bits_and, "\n" "or = ", bits_or, "\n" "xor = ", bits_xor, "\n" "not = ", bits_not, "\n" "desplazamiento izquierda = ", bits_desplazamiento_izquierda, "\n" "desplazamiento derecha = ", bits_desplazamiento_derecha, "\n")
+
+# conozco otros operadores pero creo que he puesto los más usuales sin ánimo de ser redundante.
